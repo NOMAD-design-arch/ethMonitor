@@ -1,0 +1,23 @@
+{
+  "name": "eth-event-listener",
+  "version": "1.0.0",
+  "description": "一个以太坊事件监听器，能够监听智能合约事件并发送通知。",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16",
+    "web3": "^1.10.4",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "joe",
+  "license": "MIT",
+  "keywords": []
+}
